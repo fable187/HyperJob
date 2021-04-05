@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume List</title>
+</head>
+<body>
+<h2>Welcome to the Resume List!</h2>
+<ul>
+    {% for user in users %}
+    <li><div>{{user.1}}: {{user.2}}</div></li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>
